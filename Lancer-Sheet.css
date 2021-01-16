@@ -1,0 +1,12 @@
+.sheet-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .sheet-columns > * {
+    flex: 1;
+  }
+
+input.sheet-toggle-hide:checked ~ div.sheet-body {
+    display: none;
+}
